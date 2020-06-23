@@ -1,10 +1,14 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import icon from '../images/chakra-2.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon">
+        <img src={icon} alt="" />
+      </span>
+      {/* <span className="icon fa-diamond"></span> */}
     </div>
     <div className="content">
       <div className="inner">
@@ -21,19 +25,19 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('services')
             }}
           >
-            Intro
+            Services
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('pricing')
             }}
           >
-            Work
+            Pricing
           </button>
         </li>
         <li>

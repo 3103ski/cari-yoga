@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic01 from '../images/lotus-1.jpg'
+import pic02 from '../images/door-yoga.jpg'
+import pic03 from '../images/about.jpg'
 
 class Main extends React.Component {
   render() {
@@ -22,20 +22,19 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="services"
+          className={`${this.props.article === 'services' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">services</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
+            WRITE SOME TEXT CONTENT HERE THAT DOESN'T TALK ABOUT PRICING BUT
+            RATHER DETAILS ABOUT YOUR TEACHINGS AND WHAT YOU'RE OFFERING. Ut
             magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
             By the way, check out my <a href="#work">awesome work</a>.
           </p>
@@ -56,31 +55,44 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="pricing"
+          className={`${this.props.article === 'pricing' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Pricing</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            WRITE SOME GENERAL CONTENT ABOUT YOUR PRICING OR PACKAGESAdipiscing
+            magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend
+            sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
+            fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris
+            nec lorem luctus ultrices.
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <h3>Package 1</h3>
+          <ul>
+            <li>$200</li>
+            <li>something something</li>
+            <li>another detail</li>
+            <li>Maybe another</li>
+          </ul>
+          <h3>Package 2</h3>
+          <ul>
+            <li>$100</li>
+            <li>some deets</li>
+            <li>all the value</li>
+            <li>Just more value</li>
+          </ul>
+          <h3>Package 3</h3>
+          <ul>
+            <li>$200</li>
+            <li>Dang I'm getting 4 lessons?</li>
+            <li>ya get bent</li>
+            <li>value deets</li>
+          </ul>
           {close}
         </article>
 
@@ -96,13 +108,13 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            TALK ABOUT YOURSELF SOME :) Lorem ipsum dolor sit amet, consectetur
+            et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend
+            sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
+            fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris
+            nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante
+            ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis
+            mattis lorem ipsum dolor sit amet.
           </p>
           {close}
         </article>
