@@ -152,7 +152,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input
+                <button
                   name="form-submit-btn"
                   type="submit"
                   value="Send Message"
