@@ -136,7 +136,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form name="contact" method="POST" data-netlify="true">
+
+          <form name="contact-cari" method="POST" data-netlify="true">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -151,13 +152,19 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input
+                  name="form-submit-btn"
+                  type="submit"
+                  value="Send Message"
+                  className="special"
+                />
               </li>
               <li>
-                <input type="reset" value="Reset" />
+                <input name="reset-form" type="reset" value="Reset" />
               </li>
             </ul>
           </form>
+
           <ul className="icons">
             <li>
               <a
