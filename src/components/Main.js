@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/lotus-1.jpg'
-import pic02 from '../images/door-yoga.jpg'
-import pic03 from '../images/about.jpg'
+import pic01 from '../images/floor-split.jpg'
+import pic02 from '../images/grace.jpg'
+import pic03 from '../images/about-red.jpg'
 
 class Main extends React.Component {
   render() {
@@ -28,10 +28,10 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">services</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
+          <h2 className="major">Header below image?</h2>
           <p>
             WRITE SOME TEXT CONTENT HERE THAT DOESN'T TALK ABOUT PRICING BUT
             RATHER DETAILS ABOUT YOUR TEACHINGS AND WHAT YOU'RE OFFERING. Ut
@@ -50,6 +50,14 @@ class Main extends React.Component {
             malesuada fames ac turpis egestas. In non lorem sit amet elit
             placerat maximus. Pellentesque aliquam maximus risus, vel sed
             vehicula.
+          </p>
+          <h2 className="major">Another Header?</h2>
+          <p>
+            YOU CAN HAVE A COUPLE SECTIONS IF YOU THINK IT HELPS THE CONTENT YOU
+            PUT HERE Lorem ipsum dolor sit amet, consectetur et adipiscing elit.
+            Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.
+            Aliquam erat volutpat. Praesent urna nisi, fringila lorem et
+            vehicula lacinia quam.
           </p>
           {close}
         </article>
@@ -103,7 +111,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Cari Woodfield</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
@@ -116,6 +124,7 @@ class Main extends React.Component {
             ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis
             mattis lorem ipsum dolor sit amet.
           </p>
+
           {close}
         </article>
 
