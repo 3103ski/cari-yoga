@@ -153,11 +153,13 @@ class Main extends React.Component {
             <ul className="actions">
               <li>
                 <button
-                  name="form-submit-btn"
+                  // name="form-submit-btn"
                   type="submit"
-                  value="Send Message"
+                  // value="Send Message"
                   className="special"
-                />
+                >
+                  SUBMIT
+                </button>
               </li>
               <li>
                 <input name="reset-form" type="reset" value="Reset" />
