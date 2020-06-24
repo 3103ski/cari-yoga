@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import icon from '../images/chakra-2.png'
+import icon from '../images/yantra.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -43,10 +43,28 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
+              props.onOpenArticle('videos')
+            }}
+          >
+            Videos
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('philosophy')
+            }}
+          >
+            Philosophy
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
               props.onOpenArticle('about')
             }}
           >
-            About
+            Bio
           </button>
         </li>
         <li>

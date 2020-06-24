@@ -28,10 +28,11 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
+          <h2 className="major">Header below image?</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
-          <h2 className="major">Header below image?</h2>
+
           <p>
             WRITE SOME TEXT CONTENT HERE THAT DOESN'T TALK ABOUT PRICING BUT
             RATHER DETAILS ABOUT YOUR TEACHINGS AND WHAT YOU'RE OFFERING. Ut
@@ -70,6 +71,90 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Pricing</h2>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+          <p>
+            WRITE SOME GENERAL CONTENT ABOUT YOUR PRICING OR PACKAGESAdipiscing
+            magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend
+            sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
+            fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris
+            nec lorem luctus ultrices.
+          </p>
+          <h3>Package 1</h3>
+          <ul>
+            <li>$200</li>
+            <li>something something</li>
+            <li>another detail</li>
+            <li>Maybe another</li>
+          </ul>
+          <h3>Package 2</h3>
+          <ul>
+            <li>$100</li>
+            <li>some deets</li>
+            <li>all the value</li>
+            <li>Just more value</li>
+          </ul>
+          <h3>Package 3</h3>
+          <ul>
+            <li>$200</li>
+            <li>Dang I'm getting 4 lessons?</li>
+            <li>ya get bent</li>
+            <li>value deets</li>
+          </ul>
+          {close}
+        </article>
+
+        <article
+          id="videos"
+          className={`${this.props.article === 'videos' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Videos</h2>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+          <p>
+            WRITE SOME GENERAL CONTENT ABOUT YOUR PRICING OR PACKAGESAdipiscing
+            magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend
+            sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
+            fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris
+            nec lorem luctus ultrices.
+          </p>
+          <h3>Package 1</h3>
+          <ul>
+            <li>$200</li>
+            <li>something something</li>
+            <li>another detail</li>
+            <li>Maybe another</li>
+          </ul>
+          <h3>Package 2</h3>
+          <ul>
+            <li>$100</li>
+            <li>some deets</li>
+            <li>all the value</li>
+            <li>Just more value</li>
+          </ul>
+          <h3>Package 3</h3>
+          <ul>
+            <li>$200</li>
+            <li>Dang I'm getting 4 lessons?</li>
+            <li>ya get bent</li>
+            <li>value deets</li>
+          </ul>
+          {close}
+        </article>
+
+        <article
+          id="philosophy"
+          className={`${this.props.article === 'philosophy' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Writing</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>

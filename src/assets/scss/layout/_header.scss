@@ -65,8 +65,8 @@
   }
 
   .logo {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 7.35rem;
+    height: 7.35rem;
     line-height: 5.5rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
@@ -81,7 +81,7 @@
       display: flex;
       align-items: center;
       img {
-        width: 50px;
+        width: 6.8rem;
       }
     }
   }
@@ -139,7 +139,7 @@
 
         button {
           display: block;
-          min-width: 7.5rem;
+          min-width: 8.95rem;
           height: 2.75rem;
           line-height: 2.75rem;
           padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
