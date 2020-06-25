@@ -11,6 +11,7 @@ const Header = props => (
       {/* <span className="icon fa-diamond"></span> */}
     </div>
     <div className="content">
+      <div className="hdr-top-line"></div>
       <div className="inner">
         <h1>Yoga With Cari</h1>
         <p>

@@ -68,7 +68,7 @@
     width: 7.35rem;
     height: 7.35rem;
     line-height: 5.5rem;
-    border: solid _size(border-width) _palette(border);
+    // border: solid _size(border-width) _palette(border);
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -89,10 +89,15 @@
   .content {
     border-style: solid;
     border-color: _palette(border);
-    border-top-width: _size(border-width);
+    // border-top-width: _size(border-width);
     border-bottom-width: _size(border-width);
     max-width: 100%;
-
+    .hdr-top-line {
+      height: 1px;
+      width: 45%;
+      margin: 0 auto;
+      background-color: white;
+    }
     .inner {
       @include vendor(
         'transition',
@@ -103,7 +108,7 @@
         )
       );
       @include vendor('transition-delay', '0.25s');
-      padding: 3rem 2rem;
+      padding: 3rem 4rem;
       max-height: 40rem;
       overflow: hidden;
 
