@@ -13,7 +13,7 @@ const Header = props => (
     <div className="content">
       <div className="hdr-top-line"></div>
       <div className="inner">
-        <h1>Yoga With Cari</h1>
+        <h1>Yoga With Cari Woodfield</h1>
         <p>
           Cari is the best at yoga, get right and get bent with the master.{' '}
           <br />

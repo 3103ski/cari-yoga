@@ -28,37 +28,41 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Header below image?</h2>
+          <h2 className="major">Services</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
 
           <p>
-            WRITE SOME TEXT CONTENT HERE THAT DOESN'T TALK ABOUT PRICING BUT
-            RATHER DETAILS ABOUT YOUR TEACHINGS AND WHAT YOU'RE OFFERING. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Rooted in Traditional Hatha Yoga, Cari offers a range of classes
+            specifically designed to meet the urgent need for balance within her
+            students. Her focus is on building a strong foundation and sense of
+            self-confidence, so that participants are able to cultivate that
+            state of physical and mental well being uniquely derived from yoga
+            practice. She teaches her students to become aware of each breath,
+            and each movement, so that the mechanisms of aligned breathing and
+            movement, along with the resultant hormonal balancing of the
+            endocrine system, can work their magic upon the experience of being
+            human. She invites you to join her in rejoicing being alive in this
+            body, in this moment!
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Her online courses range from 3 to 6 week programs, so you can go at
+            your own pace and willingness. Whether you are looking to recover
+            from an injury or illness, gain strength and flexibility, lose
+            weight and become balanced, find relief from short or long term
+            stress, are pregnant or nursing, want to relieve chronic back pain,
+            are an athlete looking to enhance your performance, want to begin a
+            regular meditation practice, or are just looking to begin a health
+            and wellness routine through yoga - this course is for you!
           </p>
-          <h2 className="major">Another Header?</h2>
           <p>
-            YOU CAN HAVE A COUPLE SECTIONS IF YOU THINK IT HELPS THE CONTENT YOU
-            PUT HERE Lorem ipsum dolor sit amet, consectetur et adipiscing elit.
-            Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.
-            Aliquam erat volutpat. Praesent urna nisi, fringila lorem et
-            vehicula lacinia quam.
+            Cari also offers yoga and guided meditation group and private
+            lessons in the Western North Carolina Region. For current group
+            classes in the greater Asheville area, please contact directly, as
+            schedule is subject to change. Instruction for individual or
+            family/friends at your residence, public or outdoor space available
+            within 100 miles of Asheville.
           </p>
           {close}
         </article>
@@ -75,33 +79,44 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            WRITE SOME GENERAL CONTENT ABOUT YOUR PRICING OR PACKAGESAdipiscing
-            magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend
-            sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
-            fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris
-            nec lorem luctus ultrices.
+            Courses are one-time purchase, with everything you need to achieve
+            success with the classes included in the package. Cari is available
+            to answer any questions or concerns you have before you get started,
+            and she offers a 30-minute free Zoom consultation to make sure you
+            are getting exactly what you need. Within 100 miles of Asheville,
+            NC: Individual, family, or friends group 60 minute instruction is
+            available for $50/class. Classes are designed based on individuals’
+            needs, and consultation is provided before booking. Packages of 6
+            classes or more include 10% off.
           </p>
-          <h3>Package 1</h3>
+          <h2 className="major">Balanced Body + Mind + Soul</h2>
+          <h3>(Beginner / Intermediate / Advanced)</h3>
           <ul>
-            <li>$200</li>
-            <li>something something</li>
-            <li>another detail</li>
-            <li>Maybe another</li>
+            <li>3 week course: $150 / 6 week course $250</li>
+            <li>1+ hour one-on-one Yoga instruction 2 x’s per week</li>
+            <li>Diet & Lifestyle Guidance</li>
+            <li>30-minute virtual follow up 2 weeks post-completion </li>
           </ul>
-          <h3>Package 2</h3>
+
+          <h2 className="major">Strength & Stamina/Athletic training</h2>
+          <h3>(Beginner / Intermediate / Advanced)</h3>
           <ul>
-            <li>$100</li>
-            <li>some deets</li>
-            <li>all the value</li>
-            <li>Just more value</li>
+            <li>3 week course $200 / 6 week course $300</li>
+            <li>1+ hour one-on-one Yoga instruction 2 x’s per week</li>
+            <li>Routines designed to push your body’s limitations</li>
+            <li>30-minute virtual follow up 2 weeks post-completion</li>
           </ul>
-          <h3>Package 3</h3>
+
+          <h2 className="major">Healthy Back & Body Recovery</h2>
+          <h3>(Beginner / Intermediate / Advanced)</h3>
+
           <ul>
-            <li>$200</li>
-            <li>Dang I'm getting 4 lessons?</li>
-            <li>ya get bent</li>
-            <li>value deets</li>
+            <li>4 week course $200</li>
+            <li>1+ hour one-on-one Yoga instruction 2 x’s per week</li>
+            <li>Focus on building & repairing foundations</li>
+            <li>30-minute virtual follow up 2 weeks post-completion</li>
           </ul>
+
           {close}
         </article>
 
@@ -112,38 +127,18 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Videos</h2>
+          <h2 className="major">Videos Coming Soon!</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
+          {/* <p>
             WRITE SOME GENERAL CONTENT ABOUT YOUR PRICING OR PACKAGESAdipiscing
             magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend
             sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
             fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris
             nec lorem luctus ultrices.
-          </p>
-          <h3>Package 1</h3>
-          <ul>
-            <li>$200</li>
-            <li>something something</li>
-            <li>another detail</li>
-            <li>Maybe another</li>
-          </ul>
-          <h3>Package 2</h3>
-          <ul>
-            <li>$100</li>
-            <li>some deets</li>
-            <li>all the value</li>
-            <li>Just more value</li>
-          </ul>
-          <h3>Package 3</h3>
-          <ul>
-            <li>$200</li>
-            <li>Dang I'm getting 4 lessons?</li>
-            <li>ya get bent</li>
-            <li>value deets</li>
-          </ul>
+          </p> */}
+
           {close}
         </article>
 
@@ -154,38 +149,39 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Writing</h2>
+          <h2 className="major">Philosophy</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            WRITE SOME GENERAL CONTENT ABOUT YOUR PRICING OR PACKAGESAdipiscing
-            magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend
-            sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
-            fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris
-            nec lorem luctus ultrices.
+            Yoga is for everybody! There is not one person in the world who
+            couldn’t stand to benefit from gaining more awareness of their
+            breath, their body and its function, and the quality of their mind.
           </p>
-          <h3>Package 1</h3>
-          <ul>
-            <li>$200</li>
-            <li>something something</li>
-            <li>another detail</li>
-            <li>Maybe another</li>
-          </ul>
-          <h3>Package 2</h3>
-          <ul>
-            <li>$100</li>
-            <li>some deets</li>
-            <li>all the value</li>
-            <li>Just more value</li>
-          </ul>
-          <h3>Package 3</h3>
-          <ul>
-            <li>$200</li>
-            <li>Dang I'm getting 4 lessons?</li>
-            <li>ya get bent</li>
-            <li>value deets</li>
-          </ul>
+          <p>
+            The biggest misconception people have about yoga is that it’s “not
+            for them”. Who doesn’t want to be more present in their everyday
+            life? Who doesn’t want to have a greater lung capacity? A greater
+            range of motion in their joints? Better health? Less pain? Less
+            stress and frustration? And peace of mind! Yoga is not a difficult
+            practice, it only seems that way if it hasn’t been experienced yet.
+            It’s like learning how to cook - when you don’t know how, you’re
+            dependent on others to nourish you. But once you begin learning a
+            few recipes, you become independent and more confident in your
+            ability to provide for yourself. And maybe later you discover what
+            each of the ingredients and spices can do for a dish, achieving a
+            sense of mastery over your palate and nourishment.
+          </p>
+          <p>
+            Yoga is all about how much effort you want to put in, and luckily -
+            a little bit goes a long, long way. A little 15-minute routine
+            practiced a few times per week can have a massive impact on your
+            health and life. It really gives you an opportunity to fully
+            experience your “inner world”, which in turn brings more clarity to
+            the “outer world”. With this, harmony becomes accessible, and
+            everyday life becomes easier to enjoy.
+          </p>
+
           {close}
         </article>
 
@@ -201,13 +197,49 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            TALK ABOUT YOURSELF SOME :) Lorem ipsum dolor sit amet, consectetur
-            et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend
-            sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
-            fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris
-            nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante
-            ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis
-            mattis lorem ipsum dolor sit amet.
+            Cari Rae Woodfield is a YA certified RYT 500 yoga instructor. She
+            completed her training at The Yoga Bridge in Black Mountain, NC
+            under internationally renowned master Ishanath Marcel
+            Andres-Hoepgen. She studied Hatha Yoga disciplines and philosophies,
+            and focused on the Nath tradition and series' during her advanced
+            training hours. She received comprehensive training on both the
+            Hatha Yoga Pradipika and the Yoga Sutras of Patanjali, as well as
+            many meditation techniques.
+          </p>
+          <p>
+            In her career as a yoga teacher, she has worked extensively with a
+            vast population of aspiring yogis, all with varying degrees of
+            experience and focus. Her style focuses heavily on strength and body
+            conditioning, using the breath to guide isometric poses and increase
+            balance and flexibility, while also training the muscles to relax
+            and build trust with the mind. She is highly adept at building
+            perfectly paced flows for every level of practice, and has an
+            intuitive understanding of how trust, pacing, breath, and belief in
+            oneself all play a collective role in preventing injury and
+            preparing the body for newfound health and strength. She has trained
+            athletes, including basketball players, professional dancers,
+            martial arts practitioners, wrestlers, track & field athletes, and
+            boxers. She has also worked with Alzheimers and dementia patients
+            using chair yoga classes and breathing techniques, which are
+            designed to strengthen focus and attention while stimulating
+            regeneration for the sedentary body.
+          </p>
+          <p>
+            In addition to teaching yoga, Cari is a Bachata dance instructor.
+            Her understanding of movement and rhythm in Latin dancing helped her
+            growth as a yoga teacher immensely, and visa versa. Many of the same
+            principles of energy, body awareness, breath control, trust and
+            flexibility are incorporated on the dance floor as well as the yoga
+            mat. Earlier in her life she worked as a C.M.A., X-ray tech, E.K.G.
+            tech, and phlebotomist, with six years of practice in professional
+            health care settings. She believes her background in Western
+            medicine, with focus on anatomy and physiology, helped prepare her
+            to comprehensively grasp and easily apply the Eastern philosophies
+            and disciplines found in Hatha Yoga.
+          </p>
+          <p>
+            Cari currently resides in Waynesville, North Carolina, where she
+            teaches group classes and private lessons.
           </p>
 
           {close}
