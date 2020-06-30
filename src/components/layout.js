@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import thumbImage from '../images/chakra-2.png'
 
 import '../assets/scss/main.scss'
-import logo from '../images/chakra-2.png'
 
 const Layout = ({ children, location }) => {
     let content
@@ -38,10 +38,10 @@ const Layout = ({ children, location }) => {
                             {
                                 name: 'description',
                                 content:
-                                    'Yoga courses designed for everybody! Bring yourself into balance and harmony through Traditional Hatha Yoga practices.',
+                                    'Yoga courses designed for everybody! Bring yourself into balance and harmony through Traditional Hatha Yoga practices',
                             },
                             { name: 'keywords', content: 'yoga' },
-                            { name: 'image', content: { logo } },
+                            { property: 'image', content: { thumbImage } },
                         ]}
                     >
                         <html lang="en" />
