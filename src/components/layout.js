@@ -38,7 +38,7 @@ const Layout = ({ children, location }) => {
                             {
                                 name: 'description',
                                 content:
-                                    'Yoga courses designed for everybody! Bring yourself into balance and harmony through Traditional Hatha Yoga practices',
+                                    'Yoga courses designed for everybody! ',
                             },
                             { name: 'keywords', content: 'yoga' },
                             { property: 'image', content: { thumbImage } },
@@ -52,7 +52,7 @@ const Layout = ({ children, location }) => {
         />
     )
 }
-
+// Bring yourself into balance and harmony through Traditional Hatha Yoga practices
 Layout.propTypes = {
     children: PropTypes.node.isRequired,
 }
