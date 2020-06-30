@@ -363,7 +363,8 @@ class Main extends React.Component {
                         </li>
                         <li>
                             <a
-                                href="https://instagram.com"
+                                target="_blank"
+                                href="https://www.instagram.com/yogawithcari/"
                                 className="icon fa-instagram"
                             >
                                 <span className="label">Instagram</span>
