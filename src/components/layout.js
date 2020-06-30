@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import thumbImage from '../images/chakra-2.png'
+import thumbImage from '../images/door-yoga.jpg'
 
 import '../assets/scss/main.scss'
 
