@@ -1,5 +1,8 @@
+// Framework / Libraries
 import PropTypes from 'prop-types'
 import React from 'react'
+
+// Article Top Images
 import pricingPic from '../images/grace.jpg'
 import aboutPic from '../images/yoga_about.jpg'
 import servicesPic from '../images/yoga_services.jpg'
