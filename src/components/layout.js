@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'
+import logo from '../images/chakra-2.png'
 
 const Layout = ({ children, location }) => {
     let content
@@ -34,8 +35,13 @@ const Layout = ({ children, location }) => {
                     <Helmet
                         title={data.site.siteMetadata.title}
                         meta={[
-                            { name: 'description', content: 'Sample' },
-                            { name: 'keywords', content: 'sample, something' },
+                            {
+                                name: 'description',
+                                content:
+                                    'Yoga courses designed for everybody! Bring yourself into balance and harmony through Traditional Hatha Yoga practices.',
+                            },
+                            { name: 'keywords', content: 'yoga' },
+                            { name: 'image', content: { logo } },
                         ]}
                     >
                         <html lang="en" />
