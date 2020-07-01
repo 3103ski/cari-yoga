@@ -12,7 +12,7 @@ module.exports = {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 // name: 'gatsby-starter-default',
-                name: 'Yoga With ',
+                name: 'Yoga With Cari',
                 short_name: 'Cari Yoga',
                 start_url: '/',
                 background_color: '#FF5733',

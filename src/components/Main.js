@@ -135,7 +135,7 @@ class Main extends React.Component {
                     </ul>
 
                     <h2 className="major">Healthy Back & Body Recovery</h2>
-                    <h3>(Beginner / Intermediate / Advanced)</h3>
+                    {/* <h3>(Beginner / Intermediate / Advanced)</h3> */}
 
                     <ul>
                         <li>4 week course $200</li>
