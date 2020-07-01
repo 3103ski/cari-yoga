@@ -18,7 +18,7 @@ module.exports = {
                 background_color: '#FF5733',
                 theme_color: '#663399',
                 display: 'minimal-ui',
-                // image: 'src/images/door-yoga.jpg', // This path is relative to the root of the site.
+                image: 'src/images/door-yoga.jpg', // This path is relative to the root of the site.
             },
         },
         'gatsby-plugin-sass',
