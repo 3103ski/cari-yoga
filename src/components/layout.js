@@ -33,8 +33,9 @@ const Layout = ({ children, location }) => {
             render={data => (
                 <>
                     <Helmet
-                        title={data.site.siteMetadata.title}
+                        // title={data.site.siteMetadata.title}
                         meta={[
+                            { name: 'title', content: 'Yoga With Cari' },
                             {
                                 name: 'description',
                                 content:

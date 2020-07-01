@@ -1,8 +1,9 @@
 module.exports = {
     siteMetadata: {
+        url: 'https://yogawithcari.com',
         title: 'Yoga With Cari',
-        author: 'Bryan J',
-        description: 'A landing page for Cari Woodfields yoga services',
+        author: 'Bryan Jastrzembski',
+        description: 'Do yoga with Cari!',
         image: '/src/images/floor-split.jpg',
     },
     plugins: [
@@ -10,13 +11,14 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: 'gatsby-starter-default',
-                short_name: 'starter',
+                // name: 'gatsby-starter-default',
+                name: 'Yoga With Cari',
+                short_name: 'Cari Yoga',
                 start_url: '/',
-                background_color: '#663399',
+                background_color: '#FF5733',
                 theme_color: '#663399',
                 display: 'minimal-ui',
-                icon: 'src/images/chakra-2.png', // This path is relative to the root of the site.
+                image: 'src/images/door-yoga.jpg', // This path is relative to the root of the site.
             },
         },
         'gatsby-plugin-sass',
