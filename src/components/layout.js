@@ -37,13 +37,13 @@ const Layout = ({ children, location }) => {
                     <Helmet
                         // title={data.site.siteMetadata.title}
                         meta={[
-                            { name: 'title', content: 'Yoga With Cari' },
-                            {
-                                name: 'description',
-                                content:
-                                    'Yoga courses designed for everybody! Bring yourself into balance and harmony through Traditional Hatha Yoga practices.',
-                            },
-                            { name: 'keywords', content: 'yoga' },
+                            // { name: 'title', content: 'Yoga With Cari' },
+                            // {
+                            //     name: 'description',
+                            //     content:
+                            //         'Yoga courses designed for everybody! Bring yourself into balance and harmony through Traditional Hatha Yoga practices.',
+                            // },
+                            // { name: 'keywords', content: 'yoga' },
                             { property: 'og:image', href: thumbImage },
                             {
                                 property: 'og:description',
