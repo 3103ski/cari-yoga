@@ -19,6 +19,8 @@ const Layout = ({ children, location }) => {
         )
     }
 
+    console.log(thumbImage)
+
     return (
         <StaticQuery
             query={graphql`
@@ -39,10 +41,19 @@ const Layout = ({ children, location }) => {
                             {
                                 name: 'description',
                                 content:
-                                    'Yoga courses designed for everybody! ',
+                                    'Yoga courses designed for everybody! Bring yourself into balance and harmony through Traditional Hatha Yoga practices.',
                             },
                             { name: 'keywords', content: 'yoga' },
-                            { property: 'image', content: { thumbImage } },
+                            { property: 'og:image', href: thumbImage },
+                            {
+                                property: 'og:description',
+                                content: 'Yoga courses designed for everybody!',
+                            },
+                            {
+                                property: 'og:url',
+                                content: 'https://www.yogawithcari.com',
+                            },
+                            { property: 'og:title', content: 'Yoga With Cari' },
                         ]}
                     >
                         <html lang="en" />
@@ -53,7 +64,7 @@ const Layout = ({ children, location }) => {
         />
     )
 }
-// Bring yourself into balance and harmony through Traditional Hatha Yoga practices
+
 Layout.propTypes = {
     children: PropTypes.node.isRequired,
 }
