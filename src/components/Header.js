@@ -18,10 +18,10 @@ const Header = props => (
             <div className="inner">
                 <h1>Yoga With Cari</h1>
                 <p>
-                    Cari is the best at yoga, get right and get bent with the
-                    master. <br />
-                    Some say these classes are worth millions. But find out for
-                    yourself.
+                    Yoga courses designed for everybody! Bring yourself into
+                    balance
+                    <br />
+                    and harmony through Traditional Hatha Yoga practices.
                 </p>
             </div>
         </div>
