@@ -36,21 +36,14 @@ const Layout = ({ children, location }) => {
             render={data => (
                 <>
                     <Helmet
-                        // title={data.site.siteMetadata.title}
+                        title={data.site.siteMetadata.title}
                         meta={[
-                            // { name: 'title', content: 'Yoga With Cari' },
-                            // {
-                            //     name: 'description',
-                            //     content:
-                            //         'Yoga courses designed for everybody! Bring yourself into balance and harmony through Traditional Hatha Yoga practices.',
-                            // },
-                            // { name: 'keywords', content: 'yoga' },
                             { property: 'image', content: thumbImage },
                             { property: 'og:image', content: thumbImage },
                             {
                                 property: 'og:description',
                                 content:
-                                    'Yoooga courses designed for everybody!',
+                                    'Yoga courses designed for everybody! Bring yourself into balance and harmony through Traditional Hatha Yoga practices.',
                             },
                             {
                                 property: 'og:url',
@@ -58,8 +51,10 @@ const Layout = ({ children, location }) => {
                             },
                             {
                                 property: 'og:title',
-                                content: 'Yoooga With Cari',
+                                content: 'Yoga With Cari',
                             },
+                            { name: 'keywords', content: 'yoga' },
+                            { name: 'title', content: 'Yoga With Cari' },
                         ]}
                     >
                         <html lang="en" />
