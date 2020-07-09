@@ -1,9 +1,9 @@
 module.exports = {
     siteMetadata: {
         url: 'https://yogawithcari.com',
-        title: 'Yoga With Cari',
+        title: 'Yoggga With Cari',
         author: 'Bryan Jastrzembski',
-        description: 'Do yoga with Cari!',
+        description: 'Do yoggga with Cari!',
         image: '/src/images/floor-split.jpg',
     },
     plugins: [
@@ -12,8 +12,8 @@ module.exports = {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 // name: 'gatsby-starter-default',
-                name: 'Yoga With Cari',
-                short_name: 'Cari Yoga',
+                name: 'Yoga With Cariii',
+                short_name: 'Cari Yogaaa',
                 start_url: '/',
                 background_color: '#FF5733',
                 theme_color: '#663399',

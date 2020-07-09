@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import thumbImage from '../images/grace.jpg'
-
 import '../assets/scss/main.scss'
 
 const Layout = ({ children, location }) => {
@@ -49,13 +48,16 @@ const Layout = ({ children, location }) => {
                             {
                                 property: 'og:description',
                                 content:
-                                    'Yoga courses designed for everybody!!',
+                                    'Yoooga courses designed for everybody!',
                             },
                             {
                                 property: 'og:url',
                                 content: 'https://www.yogawithcari.com',
                             },
-                            { property: 'og:title', content: 'Yoga With Cari' },
+                            {
+                                property: 'og:title',
+                                content: 'Yoooga With Cari',
+                            },
                         ]}
                     >
                         <html lang="en" />
