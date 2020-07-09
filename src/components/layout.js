@@ -43,8 +43,8 @@ const Layout = ({ children, location }) => {
                             //         'Yoga courses designed for everybody! Bring yourself into balance and harmony through Traditional Hatha Yoga practices.',
                             // },
                             // { name: 'keywords', content: 'yoga' },
-                            { property: 'image', href: thumbImage },
-                            { property: 'og:image', href: thumbImage },
+                            { property: 'image', content: thumbImage },
+                            { property: 'og:image', content: thumbImage },
                             {
                                 property: 'og:description',
                                 content:
